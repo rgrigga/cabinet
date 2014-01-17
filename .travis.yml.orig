@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+language: php
+
+php: 
+  - 5.3
+  - 5.4
+  - 5.5
+
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev
+
+=======
+language: php
+
+php: 
+  - 5.3
+  - 5.4
+
+before_script:
+  - curl -s http://getcomposer.org/installer | php
+  - php composer.phar install --dev
+
+>>>>>>> 06617109ccc959ef7e900442803b14b8a9dd2020
+script: phpunit

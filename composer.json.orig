@@ -1,13 +1,36 @@
+{
+<<<<<<< HEAD
     "name": "rgrigga/cabinet",
     "description": "",
     "authors": [
         {
             "name": "Ryan Grissinger",
             "email": "rgrigga@gmail.com"
+=======
+    "name": "aeyoll/cabinet",
+    "description": "Laravel 4 file upload package.",
+    "keywords": ["laravel","illuminate","file","uploads","jquery", "js"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Elkins",
+            "homepage": "http://andrewelkins.com"
+>>>>>>> 06617109ccc959ef7e900442803b14b8a9dd2020
         }
     ],
     "require": {
         "php": ">=5.3.0",
+<<<<<<< HEAD
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rgrigga\\Cabinet": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
+=======
         "illuminate/auth": "4.1.x",
         "illuminate/database": "4.1.x",
         "illuminate/filesystem": "4.1.x",
@@ -30,8 +53,9 @@
             "src/commands"
         ],
         "psr-0": {
-            "Rgrigga\\Cabinet": "src/"
+            "Andrew13\\Cabinet": "src/"
         }
     },
     "minimum-stability": "dev"
 }
+>>>>>>> 06617109ccc959ef7e900442803b14b8a9dd2020
