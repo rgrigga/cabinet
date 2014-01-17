@@ -1,5 +1,6 @@
+{
     "name": "rgrigga/cabinet",
-    "description": "",
+    "description": "fork of andrew13/cabinet",
     "authors": [
         {
             "name": "Ryan Grissinger",
@@ -19,7 +20,7 @@
         "nesbot/carbon": "1.*",
         "bllim/datatables": "*",
         "intervention/image": "1.5.2"
-},
+    },
     "suggest": {
         "zizaco/confide":"add Easy User management to Laravel 4",
         "zizaco/entrust":"add Role-based Permissions to Laravel 4"
